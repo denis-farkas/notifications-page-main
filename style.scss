@@ -131,6 +131,7 @@ h1 {
 .avatar {
   width: 2.8rem;
   height: auto;
+  cursor: pointer;
 }
 
 .post-container-right {
@@ -149,6 +150,11 @@ h1 {
   color: hsl(224, 21%, 14%);
   letter-spacing: 0.015rem;
   padding-right: 0.5rem;
+  cursor: pointer;
+}
+
+.name:hover {
+  color: hsl(219, 85%, 26%);
 }
 
 .post {
@@ -156,6 +162,11 @@ h1 {
   padding-left: 0.5rem;
   letter-spacing: 0.03rem;
   color: hsl(219, 12%, 42%);
+  cursor: pointer;
+}
+
+.post:hover {
+  color: hsl(219, 85%, 26%);
 }
 
 .action {
@@ -165,6 +176,11 @@ h1 {
 .group {
   font-weight: 700;
   padding-left: 0.5rem;
+  color: hsl(219, 12%, 42%);
+  cursor: pointer;
+}
+
+.group:hover {
   color: hsl(219, 85%, 26%);
 }
 
@@ -183,6 +199,10 @@ h1 {
   border: 1px solid hsl(205, 33%, 90%);
   margin-bottom: 1.6rem;
   border-radius: 5px;
+  cursor: pointer;
+}
+.message:hover {
+  background-color: hsl(205, 33%, 90%);
 }
 .message p {
   margin-block-start: 0em;
