@@ -1,0 +1,37 @@
+@media screen and (max-width: 735px) {
+  html {
+    font-size: 11px;
+  }
+
+  article {
+    width: 90%;
+    height: auto;
+  }
+
+  .content-header {
+    width: 90%;
+  }
+  .content-header-left {
+    width: 49%;
+  }
+  .content-header-right {
+    width: 49%;
+  }
+
+  .showPosts {
+    width: 90%;
+    align-items: center;
+  }
+  .post-container {
+    width: 88%;
+    justify-content: left;
+  }
+  .message {
+    width: 78%;
+    height: auto;
+  }
+
+  .image {
+    margin-left: 0.3em;
+  }
+}
